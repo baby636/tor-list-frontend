@@ -34,7 +34,7 @@
   "devDependencies": {
     "husky": "^4.3.0",
     "semantic-release": "^17.3.7",
-    "standard": "^14.3.4"
+    "standard": "^16.0.4"
   },
   "release": {
     "publish": [
