@@ -33,7 +33,7 @@
   },
   "devDependencies": {
     "husky": "^4.3.0",
-    "semantic-release": "^17.3.7",
+    "semantic-release": "^19.0.0",
     "standard": "^14.3.4"
   },
   "release": {
