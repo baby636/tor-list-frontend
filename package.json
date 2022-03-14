@@ -20,7 +20,7 @@
   },
   "dependencies": {
     "axios": "^0.21.1",
-    "gatsby": "^2.31.1",
+    "gatsby": "^3.5.0",
     "gatsby-ipfs-web-wallet": "1.20.1",
     "gatsby-plugin-bch-sign": "^1.0.1"
   },
