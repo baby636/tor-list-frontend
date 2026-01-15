@@ -1,0 +1,65 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - gatsby-ipfs-web-wallet > gatsby > @babel/core > lodash:
+        patched: '2026-01-15T23:38:10.800Z'
+        id: SNYK-JS-LODASH-567746
+        path: gatsby-ipfs-web-wallet > gatsby > @babel/core > lodash
+    - gatsby > gatsby-plugin-page-creator > @babel/traverse > lodash:
+        patched: '2026-01-15T23:38:10.800Z'
+        id: SNYK-JS-LODASH-567746
+        path: gatsby > gatsby-plugin-page-creator > @babel/traverse > lodash
+    - gatsby > gatsby-plugin-page-creator > @babel/traverse > @babel/types > lodash:
+        patched: '2026-01-15T23:38:10.800Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          gatsby > gatsby-plugin-page-creator > @babel/traverse > @babel/types >
+          lodash
+    - gatsby-ipfs-web-wallet > gatsby > gatsby-plugin-page-creator > @babel/traverse > lodash:
+        patched: '2026-01-15T23:38:10.800Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          gatsby-ipfs-web-wallet > gatsby > gatsby-plugin-page-creator >
+          @babel/traverse > lodash
+    - gatsby-ipfs-web-wallet > gatsby > gatsby-plugin-typescript > @babel/core > lodash:
+        patched: '2026-01-15T23:38:10.800Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          gatsby-ipfs-web-wallet > gatsby > gatsby-plugin-typescript >
+          @babel/core > lodash
+    - gatsby > gatsby-plugin-page-creator > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2026-01-15T23:38:10.800Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          gatsby > gatsby-plugin-page-creator > @babel/traverse >
+          @babel/helper-split-export-declaration > @babel/types > lodash
+    - gatsby-ipfs-web-wallet > gatsby > gatsby-plugin-page-creator > @babel/traverse > @babel/types > lodash:
+        patched: '2026-01-15T23:38:10.800Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          gatsby-ipfs-web-wallet > gatsby > gatsby-plugin-page-creator >
+          @babel/traverse > @babel/types > lodash
+    - gatsby-ipfs-web-wallet > gatsby > gatsby-plugin-page-creator > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2026-01-15T23:38:10.800Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          gatsby-ipfs-web-wallet > gatsby > gatsby-plugin-page-creator >
+          @babel/traverse > @babel/helper-split-export-declaration >
+          @babel/types > lodash
+    - gatsby > gatsby-plugin-page-creator > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2026-01-15T23:38:10.800Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          gatsby > gatsby-plugin-page-creator > @babel/traverse >
+          @babel/helper-function-name > @babel/helper-get-function-arity >
+          @babel/types > lodash
+    - gatsby-ipfs-web-wallet > gatsby > gatsby-plugin-page-creator > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2026-01-15T23:38:10.800Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          gatsby-ipfs-web-wallet > gatsby > gatsby-plugin-page-creator >
+          @babel/traverse > @babel/helper-function-name >
+          @babel/helper-get-function-arity > @babel/types > lodash
